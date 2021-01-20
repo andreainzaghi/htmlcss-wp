@@ -3,12 +3,13 @@
   margin:0;
   box-sizing: border-box;
   padding: 0;
-   font-family: 'Montserrat', sans-serif;
+
   /* fine reset */
 }
  body{
-   width: 80%;
+   width: 94%;
    margin: auto;
+    font-family: 'Montserrat', sans-serif;
  }
 /* barra nav */
 .logo img{
@@ -22,9 +23,9 @@
   scroll-behavior: smooth;
 } */
 header{
-  background-color: white;
+  background-color: #fff;
   position: fixed;
-
+  opacity:1;
  z-index: 6;
   width: 100%;
 }
@@ -53,30 +54,33 @@ border-bottom: 1.5px solid black;
 }
 /* barra nav */
 /* header */
-header{
+/* header{
   padding-left: 2%;
   padding-right: 2%;
 
-}
+} */
 .head{
   background-color:white;
   width: 100%;
   height: 100px;
+  margin-top: -9.5%;
 }
 /* fine header */
 /* inizio corpo */
 main{
-  margin: 0% 2% 2% 2%;
+  margin: 10% 2% 2% 2%;
 
 }
 .corpo{
   background-image: url(../img/banner.jpg);
   width: 100%;
   height: 700px;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   border-radius: 30px;
   background-size: cover;
-position: relative;
+  position: relative;
+
+
 
 }
 .overlay{
@@ -95,7 +99,7 @@ position: relative;
   position: relative;
   top: 500px;
   left: 50px;
- font-size: 17px;
+ font-size: 16px;
  z-index: 4;
 }
 h3{
@@ -105,7 +109,7 @@ h3{
 .sezione{
   background-color: #fff;
   width: 100%;
-  height:650px;
+  height:680px;
 }
 .sezione::after{
   content:"";
@@ -123,9 +127,9 @@ h3{
 
 }
 .col-1{
-  float: left;
-  background-color:#fff;
-  width: 25%;
+float: left;
+background-color:#fff;
+width: 25%;
 height: 290px;
 display: inline-block;
 margin-top: 0.5%;
@@ -150,10 +154,11 @@ margin-top: 0.5%;
 }
 .img-col{
   width: 100%;
-  height: 290px;
-position: relative;
+  height: 260px;
+  position: relative;
   border-radius: 20px;
   background-size: cover;
+  /* padding: 0px 1px 0px 1px; */
 }
 
 .col-2{
@@ -167,9 +172,9 @@ margin-top: 0.5%;
 
 }
 .col-3{
-  float: left;
-  background-color: #fff;
-  width: 25%;
+float: left;
+background-color: #fff;
+width: 25%;
 height: 290px;
 display: inline-block;
 margin-top: 0.5%;
@@ -179,7 +184,7 @@ border-radius: 10px;
 /* fine corpo */
 /* inizio footer */
 footer{
-  padding: 10%;
+  padding: 16%;
 }
 .piede{
   background-color: #fff;
