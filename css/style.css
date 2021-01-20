@@ -6,11 +6,15 @@
    font-family: 'Montserrat', sans-serif;
   /* fine reset */
 }
+ body{
+   width: 80%;
+   margin: auto;
+ }
 /* barra nav */
 .logo img{
 
   height: 80px;
-  margin-right: 250px;
+  margin-right: 150px;
  margin-top: 10px;
 
 }
@@ -42,7 +46,7 @@ color: black;
 
 }
 nav li a:hover{
-border-bottom: 2px solid black;
+border-bottom: 1.5px solid black;
 }
 .logo, nav {
   vertical-align: middle;
@@ -72,7 +76,7 @@ main{
   margin-bottom: 5%;
   border-radius: 30px;
   background-size: cover;
-
+position: relative;
 
 }
 .overlay{
@@ -80,12 +84,10 @@ main{
   background: black;
   opacity: 0.2;
   top: 0;
-  left: 2%;
+  left: 0;
   bottom: 0%;
   right: 0;
-  width: 96%;
-  height: 600px;
-  margin-top: 8%;
+
   border-radius: 30px;
 }
 .titolo-2{
@@ -136,68 +138,24 @@ margin-top: 0.5%;
 
 .img-1col{
   background-image: url(../img/img-1.jpg);
-  width: 100%;
-  height: 290px;
 
-  border-radius: 20px;
-  background-size: cover;
 
 }
 .img-2col{
   background-image: url(../img/banner-2.jpg);
-  width: 100%;
-  height: 290px;
 
-  border-radius: 20px;
-  background-size: cover;
 }
 .img-3col{
   background-image: url(../img/img-3.jpg);
+}
+.img-col{
   width: 100%;
   height: 290px;
-
+position: relative;
   border-radius: 20px;
   background-size: cover;
 }
-/* .overley-2{
-  position: absolute;
-  background: black;
-  opacity: 0.2;
-  top: 0;
-  left: 2%;
-  bottom: 0%;
-  right: 0;
-  width: 96%;
-  height: 600px;
-  margin-top: 8%;
-  border-radius: 30px;
-}
-.overlay-3{
-  position: absolute;
-  background: black;
-  opacity: 0.2;
-  top: 0;
-  left: 2%;
-  bottom: 0%;
-  right: 0;
-  width: 96%;
-  height: 600px;
-  margin-top: 8%;
-  border-radius: 30px;
-}
-.overlay-4{
-  position: absolute;
-  background: black;
-  opacity: 0.2;
-  top: 0;
-  left: 2%;
-  bottom: 0%;
-  right: 0;
-  width: 96%;
-  height: 600px;
-  margin-top: 8%;
-  border-radius: 30px;
-} */
+
 .col-2{
   float: left;
   background-color: #fff;
